@@ -4,3 +4,5 @@
     2、给a标签随便添加背景色或者背景图片，然后将a标签的透明度设置为0，不过在IE中需要使用滤镜，即 opacity:0;filter:alpha(opacity=0);
 2、低版本ie下，a标签聚焦时出现虚线问题（ie浏览器下）
   解决方法：a标签加上代码blr:expression_r(this.onFocus=this.blur())
+3、a标签聚焦时出现虚线问题（所有浏览器）
+  a标签加上代outline:none!important;
